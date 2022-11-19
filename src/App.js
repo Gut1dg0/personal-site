@@ -1,5 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import About from './components/About';
+import Channel from './components/Channel';
 
 function App() {
   return (
@@ -7,6 +9,14 @@ function App() {
       <header>
         <Navbar />
       </header>
+      <main>
+        <section>
+          <About />
+        </section>
+        <article>
+          <Channel />
+        </article>
+      </main>
     </div>
   );
 }

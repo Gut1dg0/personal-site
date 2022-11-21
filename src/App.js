@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Channel from './components/Channel';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
         </section>
         <article>
           <Channel />
+        </article>
+        <article>
+          <Projects />
         </article>
       </main>
     </div>

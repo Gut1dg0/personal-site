@@ -1,27 +1,22 @@
 import './App.css';
+import { ChakraProvider } from '@chakra-ui/react';
 import Navbar from './components/Navbar';
 import About from './components/About';
-import Channel from './components/Channel';
 import Projects from './components/Projects';
+import Channel from './components/Channel';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <Navbar />
-      </header>
-      <main>
-        <section>
-          <About />
-        </section>
-        <article>
-          <Channel />
-        </article>
-        <article>
-          <Projects />
-        </article>
-      </main>
-    </div>
+    <ChakraProvider>
+      <div className="app">
+          <Navbar/>
+          <About/>
+          <Projects/>
+          <Channel/>
+          <Footer/>
+      </div>
+    </ChakraProvider>
   );
 }
 

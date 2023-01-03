@@ -4,7 +4,6 @@ import agus from '../assets/Agustin.jpg'
 function About() {
     const handleClick = () => {
         let text = document.getElementById('hidden-text');
-        let btn = document.getElementById('my-btn');
 
         if(text.style.display === 'none') {
             text.style.display = 'inline'

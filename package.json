@@ -1,6 +1,7 @@
 {
   "name": "personal-site",
   "version": "0.1.0",
+  "homepage": "https://agustin-compean.vercel.app/",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.4.6",
@@ -22,7 +23,6 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "http://Gut1dg0.github.io/personal-site",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
